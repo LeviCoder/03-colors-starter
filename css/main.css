@@ -62,6 +62,11 @@ footer {
   header {
     background-color: red;
   }
+  .col-3 {
+    width: 50%;
+    height: 320px;
+    float: left;
+  }
 
   #column-1 {
     background-color: orange;
@@ -84,6 +89,11 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33%;
+    height: 320px;
+    float: left;
+  }
   header {
     background-color: white;
   }
